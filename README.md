@@ -7,6 +7,7 @@
   <br>
   Proporcionar un modelo predictivo que permita evaluar el riesgo en la puntuación APGAR y ayudar a identificar factores que podrían necesitar intervención en el contexto perinatal.
 </p>
+<br>
 <footer_>
-   Regresión o KNN
+   <i>Regresión o KNN</i>
 </footer_>
