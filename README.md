@@ -9,5 +9,5 @@
 </p>
 <br>
 <footer_>
-   <i>Regresión o KNN</i>
+   Algoritmos a usar:   <i>Regresión o KNN</i>
 </footer_>
