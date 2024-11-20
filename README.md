@@ -13,7 +13,6 @@ Proporcionar un modelo predictivo que permita evaluar el riesgo en la puntuació
       <li>Barrientos Huillca, Oscar David</li>
       <li>Cancinas Cardenas, Denis Jair</li>
       <li>Quispe Castillo, Brayan Rodrigo</li>
-      <li>Rodriguez Huaylla, Richard</li>
    </ul>
 </p>
 <br>
