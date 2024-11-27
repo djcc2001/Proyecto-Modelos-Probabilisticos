@@ -16,6 +16,14 @@ Desarrollar y evaluar modelos predictivos robustos para predecir la puntuación 
    </ul>
 </p>
 <br>
-<footer_>
-   Algoritmos a usar:   <i>Regresión y KNN</i>
-</footer_>
+<h3>Algoritmos utilizados: </h3>
+<p>
+   <ul>
+      <li>Random Forest</li>
+      <li>Regresión Lineal</li>
+      <li>K-Nearest Neighbors (KNN)</li>
+   </ul>
+</p>
+<p>
+   Este proyecto combina un enfoque de análisis exploratorio de datos y modelado predictivo utilizando estos tres algoritmos, con el objetivo de construir un sistema confiable para predecir el riesgo en la puntuación APGAR de los recién nacidos.
+</p>
