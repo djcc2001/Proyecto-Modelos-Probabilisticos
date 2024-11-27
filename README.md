@@ -31,11 +31,11 @@ Desarrollar y evaluar modelos predictivos robustos para predecir la puntuación 
 <br>
 <h2>Resultados:</h2>
 <p>
-Random Forest - R^2:         0.511889502464703
-Random Forest - RMSE:        6.023673560949253
-Regresión Lineal - R^2:      0.0029446936190182793
-Regresión Lineal - RMSE:     8.609183781870966
-KNN - R^2:                   -0.10963266365699997
-KNN - RMSE:                  9.082219012818523
+Random Forest - R^2:         0.511889502464703 <br>
+Random Forest - RMSE:        6.023673560949253 <br>
+Regresión Lineal - R^2:      0.0029446936190182793 <br>
+Regresión Lineal - RMSE:     8.609183781870966 <br>
+KNN - R^2:                   -0.10963266365699997 <br>
+KNN - RMSE:                  9.082219012818523 <br>
 </p>
 
