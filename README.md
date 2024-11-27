@@ -72,11 +72,17 @@ KNN - RMSE:                  9.082219012818523 <br>
 </p>
 <h3>Análisis</h3>
 <p>
-   *   **Random Forest** está funcionando mejor que los otros dos modelos, aunque aún se puede mejorar. Tiene un R² decente y el RMSE más bajo, lo que indica que tiene un buen rendimiento general en este conjunto de datos.
-
-*   **Regresión Lineal** está teniendo un desempeño muy pobre. El valor de R² es muy bajo, lo que sugiere que la relación entre las variables es más compleja y no puede ser modelada adecuadamente con una simple regresión lineal.
-
-*   **KNN** también está teniendo un desempeño negativo (R² negativo), lo que sugiere que este modelo no está funcionando bien para el conjunto de datos. El valor de RMSE más alto también lo confirma.
+   <ul>
+      <li>
+         Random Forest está funcionando mejor que los otros dos modelos, aunque aún se puede mejorar. Tiene un R² decente y el RMSE más bajo, lo que indica que tiene un buen rendimiento general en este conjunto de datos.
+      </li>
+      <li>
+         Regresión Lineal está teniendo un desempeño muy pobre. El valor de R² es muy bajo, lo que sugiere que la relación entre las variables es más compleja y no puede ser modelada adecuadamente con una simple regresión lineal.
+      </li>
+      <li>
+         KNN** también está teniendo un desempeño negativo (R² negativo), lo que sugiere que este modelo no está funcionando bien para el conjunto de datos. El valor de RMSE más alto también lo confirma.
+      </li>
+   </ul>
 </p>
 
 
