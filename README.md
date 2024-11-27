@@ -41,7 +41,8 @@ KNN - RMSE:                  9.082219012818523 <br>
 <h3>Interpretación: </h3>
 <p>
 1.   Random Forest
-  *   R²: 0.5119: Este valor indica que el modelo Random Forest explica aproximadamente el 51.19% de la variabilidad de los datos. Aunque no es excelente, está funcionando razonablemente bien, ya que un R² cercano a 1 indica una muy buena predicción, y valores cercanos a 0 indican un mal desempeño.
+  
+   *   R²: 0.5119: Este valor indica que el modelo Random Forest explica aproximadamente el 51.19% de la variabilidad de los datos. Aunque no es excelente, está funcionando razonablemente bien, ya que un R² cercano a 1 indica una muy buena predicción, y valores cercanos a 0 indican un mal desempeño.
   *   RMSE: 6.02: Este valor nos da la magnitud del error promedio entre las predicciones y los valores reales. En este caso, el error promedio es de aproximadamente 6.02 unidades. Un RMSE bajo indica que el modelo está haciendo buenas predicciones en comparación con los valores reales.
 
 
