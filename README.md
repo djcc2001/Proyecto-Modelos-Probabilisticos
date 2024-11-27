@@ -84,6 +84,12 @@ KNN - RMSE:                  9.082219012818523 <br>
       </li>
    </ul>
 </p>
+<h3>Conclusión</h3>
+<p>
+   Después de evaluar los tres modelos, Random Forest ha demostrado ser el modelo más prometedor, con un rendimiento razonable en cuanto a R² y RMSE. Aunque no es perfecto, su R² de 0.51 indica que puede capturar una cantidad significativa de la variabilidad en los datos. En comparación, tanto la Regresión Lineal como KNN no han logrado generar buenos resultados, con valores negativos de R² y altos valores de RMSE, lo que sugiere que no son adecuados para este conjunto de datos.
+<br>
+Dado el rendimiento positivo de Random Forest, se recomienda proceder con el ajuste de sus hiperparámetros utilizando técnicas como GridSearchCV. Esta estrategia permitirá explorar de manera eficiente un espacio de hiperparámetros más amplio sin caer en un sobreajuste. Si bien un ajuste más fino puede mejorar aún más el rendimiento, es crucial encontrar un equilibrio entre la mejora de los hiperparámetros y la evitación del sobreajuste, asegurándose de que el modelo generalice bien a nuevos datos. Un ajuste excesivo puede llevar a un modelo que se adapta demasiado a las particularidades del conjunto de entrenamiento, comprometiendo su capacidad para predecir en situaciones reales.
+</p>
 
 
 
