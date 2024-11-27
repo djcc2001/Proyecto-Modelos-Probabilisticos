@@ -15,7 +15,6 @@ Desarrollar y evaluar modelos predictivos robustos para predecir la puntuación 
       <li>Quispe Castillo, Brayan Rodrigo</li>
    </ul>
 </p>
-<br>
 <h3>Algoritmos utilizados: </h3>
 <p>
    <ul>
