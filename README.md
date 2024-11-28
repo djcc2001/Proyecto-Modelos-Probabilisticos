@@ -23,12 +23,7 @@ Desarrollar y evaluar modelos predictivos robustos que permitan estimar la proba
       <li>K-Nearest Neighbors (KNN)</li>
    </ul>
 </p>
-<p>
-   Este proyecto combina un enfoque de análisis exploratorio de datos y modelado predictivo utilizando estos tres algoritmos, con el objetivo de construir un sistema confiable para predecir el riesgo en la puntuación APGAR de los recién nacidos.
-</p>
-<h3>Pasos: </h3>
-<p>Instalar: <i>pip install pandas numpy scikit-learn matplotlib seaborn</i></p>
-<br>
+
 <h2>Resultados:</h2>
 <p>
 Random Forest - R^2:         &nbsp;0.511889502464703 <br>
