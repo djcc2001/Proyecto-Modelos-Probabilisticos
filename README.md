@@ -18,49 +18,49 @@ Desarrollar y evaluar modelos predictivos capaces de estimar la probabilidad de 
 <h3>Algoritmos utilizados: </h3>
 <p>
    <ul>
+      <li>Regresión Logística</li>
       <li>Random Forest</li>
-      <li>Regresión Lineal</li>
       <li>K-Nearest Neighbors (KNN)</li>
    </ul>
 </p>
 
 <h2>Resultados:</h2>
 <p>
-Random Forest - R^2:         &nbsp;0.511889502464703 <br>
-Random Forest - RMSE:        &nbsp;6.023673560949253 <br>
-Regresión Lineal - R^2:      &nbsp;0.0029446936190182793 <br>
-Regresión Lineal - RMSE:     &nbsp;8.609183781870966 <br>
-KNN - R^2:                   &nbsp;-0.10963266365699997 <br>
-KNN - RMSE:                  &nbsp;&nbsp;&nbsp;&nbsp;9.082219012818523 <br>
+Regresión Logistica - R^2: 	0.5437800320341698 <br>
+Regresión Logistica - RMSE: 	0.675440573230414 <br>
+Random Forest - R^2: 		0.7840363053924185 <br>
+Random Forest - RMSE: 		0.4647189415201208 <br>
+KNN - R^2: 			0.7608115323011212 <br>
+KNN - RMSE: 			0.489068980511828 <br>
 </p>
 <h3>Interpretación: </h3>
 <p>
    <ol>
+      <li>Regresión Logística</li>
+         <ul>
+            <li>
+               R² (0.5438): Un valor de R² de aproximadamente 0.54 indica que el modelo puede explicar el 54.38% de la variabilidad de los datos. Esto sugiere que la regresión logística no está capturando una gran parte de la variabilidad en los datos.
+            </li>  
+            <li>
+               RMSE (0.6754): El error cuadrático medio (RMSE) de 0.6754 muestra la magnitud del error de las predicciones en relación con los valores reales. Es relativamente alto, lo que indica que el modelo tiene un margen de error considerable.
+            </li>
+         </ul>
       <li>Random Forest</li>
          <ul>
             <li>
-               R²: 0.5119: Este valor indica que el modelo Random Forest explica aproximadamente el 51.19% de la variabilidad de los datos. Aunque no es excelente, está funcionando razonablemente bien, ya que un R² cercano a 1 indica una muy buena predicción, y valores cercanos a 0 indican un mal desempeño.
-            </li>  
-            <li>
-               RMSE: 6.02: Este valor nos da la magnitud del error promedio entre las predicciones y los valores reales. En este caso, el error promedio es de aproximadamente 6.02 unidades. Un RMSE bajo indica que el modelo está haciendo buenas predicciones en comparación con los valores reales.
-            </li>
-         </ul>
-      <li>Regresión Lineal</li>
-         <ul>
-            <li>
-               R²: 0.0029: Este valor indica que el modelo de regresión lineal apenas explica el 0.29% de la variabilidad de los datos, lo que significa que el modelo no está ajustando bien los datos. Este es un indicador claro de que la regresión lineal no es adecuada para este conjunto de datos o para el tipo de relación que existe entre las variables.
+               R² (0.7840): Un valor de R² de 0.7840 es excelente, lo que indica que el modelo de Random Forest puede explicar el 78.4% de la variabilidad de los datos. Este es un buen indicador de que el modelo es adecuado para los datos.
             </li>
             <li>
-               RMSE: 8.61: El error promedio es de 8.61 unidades, lo que indica que las predicciones del modelo son menos precisas que las de Random Forest.
+               RMSE (0.4647): El RMSE de 0.4647 es el más bajo entre los modelos evaluados, lo que indica que Random Forest tiene un mejor rendimiento en términos de precisión de las predicciones y un menor error en comparación con los otros modelos.
             </li>
          </ul>
       <li>KNN</li>
          <ul>
             <li>
-               R²: -0.1096: Un valor negativo de R² significa que el modelo KNN está realizando predicciones peores que simplemente predecir la media de los valores. Este es un mal resultado, ya que sugiere que el modelo está sobreajustando o no está capturando la relación en los datos.
+               R² (0.7608): Un valor de R² de 0.7608 es también muy bueno, indicando que el modelo puede explicar el 76.08% de la variabilidad en los datos. Es muy cercano al de Random Forest, pero aún algo por debajo.
             </li>
             <li>
-               RMSE: 9.08: Este es el mayor valor de RMSE de los tres modelos, lo que confirma que las predicciones del modelo KNN son las menos precisas.
+               RMSE (0.4891): El RMSE de 0.4891 es mayor que el de Random Forest, lo que sugiere que, aunque KNN es un modelo eficaz, sus predicciones tienen un margen de error mayor que las de Random Forest.
             </li>
          </ul>
    </ol>
@@ -69,21 +69,23 @@ KNN - RMSE:                  &nbsp;&nbsp;&nbsp;&nbsp;9.082219012818523 <br>
 <p>
    <ul>
       <li>
-         Random Forest está funcionando mejor que los otros dos modelos, aunque aún se puede mejorar. Tiene un R² decente y el RMSE más bajo, lo que indica que tiene un buen rendimiento general en este conjunto de datos.
+         Regresión Logística: Aunque es un modelo muy utilizado y fácil de interpretar, en este caso no parece ser el más adecuado. Su R² de 0.5438 es relativamente bajo, lo que indica que no captura bien la variabilidad de los datos. Además, su RMSE es más alto en comparación con los otros modelos, lo que significa que tiene un mayor margen de error en sus predicciones.
       </li>
       <li>
-         Regresión Lineal está teniendo un desempeño muy pobre. El valor de R² es muy bajo, lo que sugiere que la relación entre las variables es más compleja y no puede ser modelada adecuadamente con una simple regresión lineal.
+         Random Forest: Este modelo ha demostrado ser el más fuerte en este caso, con un R² de 0.7840, lo que indica que es capaz de explicar una gran parte de la variabilidad de los datos. También tiene el RMSE más bajo, lo que significa que tiene las predicciones más precisas y consistentes entre los modelos evaluados. Random Forest es robusto y maneja muy bien tanto las relaciones no lineales como las interacciones complejas entre las características.
       </li>
       <li>
-         KNN** también está teniendo un desempeño negativo (R² negativo), lo que sugiere que este modelo no está funcionando bien para el conjunto de datos. El valor de RMSE más alto también lo confirma.
+         KNN: Aunque también es un modelo sólido con un buen R² (0.7608), su RMSE es ligeramente superior al de Random Forest, lo que indica que tiene un margen de error más grande. Sin embargo, KNN sigue siendo una opción competitiva en términos de capacidad de explicación de los datos y rendimiento en general.
       </li>
    </ul>
 </p>
 <h3>Conclusión</h3>
 <p>
-   Después de evaluar los tres modelos, Random Forest ha demostrado ser el modelo más prometedor, con un rendimiento razonable en cuanto a R² y RMSE. Aunque no es perfecto, su R² de 0.51 indica que puede capturar una cantidad significativa de la variabilidad en los datos. En comparación, tanto la Regresión Lineal como KNN no han logrado generar buenos resultados, con valores negativos de R² y altos valores de RMSE, lo que sugiere que no son adecuados para este conjunto de datos.
+   Después de evaluar los tres modelos, Random Forest ha demostrado ser el modelo más prometedor, con el mejor rendimiento en cuanto a R² y RMSE. Su R² de 0.78 indica que puede capturar una cantidad significativa de la variabilidad en los datos, lo que sugiere que es capaz de generalizar bien. Comparado con la Regresión Logística (R² de 0.54) y KNN (R² de 0.76), Random Forest ha superado a los otros dos modelos en cuanto a precisión y capacidad de predicción.
 <br>
-Dado el rendimiento positivo de Random Forest, se recomienda proceder con el ajuste de sus hiperparámetros utilizando técnicas como GridSearchCV. Esta estrategia permitirá explorar de manera eficiente un espacio de hiperparámetros más amplio sin caer en un sobreajuste. Si bien un ajuste más fino puede mejorar aún más el rendimiento, es crucial encontrar un equilibrio entre la mejora de los hiperparámetros y la evitación del sobreajuste, asegurándose de que el modelo generalice bien a nuevos datos. Un ajuste excesivo puede llevar a un modelo que se adapta demasiado a las particularidades del conjunto de entrenamiento, comprometiendo su capacidad para predecir en situaciones reales.
+Aunque el modelo de Random Forest no es perfecto, su rendimiento es sólido y su RMSE de 0.46 es relativamente bajo, lo que sugiere que las predicciones son bastante precisas. En comparación, la Regresión Logística y KNN muestran un desempeño inferior, con KNN superando a la regresión logística, pero aún lejos de los resultados de Random Forest.
+<br>
+Por lo tanto, se recomienda continuar con el modelo de Random Forest y considerar el ajuste de sus hiperparámetros si se desea una mejora adicional. Aunque el modelo ya ofrece buenos resultados, una optimización fina podría mejorar aún más su desempeño, pero es importante mantener un equilibrio para evitar el sobreajuste.
 </p>
 
 
