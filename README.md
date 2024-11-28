@@ -1,11 +1,11 @@
-<h1>Predicción de la Puntuación APGAR en Recién Nacidos mediante Aprendizaje Automático</h1>
+<h1>Predicción de Casos Confirmados de Dengue en el Perú mediante Modelos Probabilísticos y de Aprendizaje Supervisado</h1>
 <p>
-Este repositorio contiene un proyecto de análisis y predicción de la puntuación APGAR en recién nacidos, utilizando técnicas de aprendizaje automático. La puntuación APGAR es un indicador clave de la salud del bebé inmediatamente después del nacimiento, evaluándose en función de cinco criterios: apariencia, pulso, gesticulación, actividad y respiración. Este proyecto tiene como objetivo identificar los factores maternos, del embarazo y del parto que pueden influir en la puntuación APGAR, para anticipar riesgos y mejorar la atención perinatal.
+Este repositorio contiene un proyecto de análisis y predicción de la notificación de casos confirmados de dengue en el Perú, utilizando técnicas de aprendizaje supervisado y modelos probabilísticos. El dengue es una enfermedad viral transmitida por mosquitos, con alta incidencia en diversas regiones del Perú, y constituye un problema de salud pública. Este proyecto busca explorar factores geográficos, demográficos y temporales asociados a la notificación de casos, para anticipar brotes y mejorar las estrategias de control y prevención.
 </p>
 
 <h3>Objetivo: </h3>
 <p>
-Desarrollar y evaluar modelos predictivos robustos para predecir la puntuación APGAR, identificando factores clave que puedan ayudar en la intervención temprana en el contexto perinatal.
+Desarrollar y evaluar modelos predictivos robustos que permitan estimar la probabilidad de casos confirmados de dengue en función de variables geográficas, demográficas y temporales, con el objetivo de identificar patrones clave que puedan guiar intervenciones de salud pública.
 </p>
 <h3>Integrantes: </h3>
 <p>
