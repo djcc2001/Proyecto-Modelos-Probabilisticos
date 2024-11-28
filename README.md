@@ -26,11 +26,11 @@ Desarrollar y evaluar modelos predictivos capaces de estimar la probabilidad de 
 
 <h2>Resultados:</h2>
 <p>
-Regresión Logistica - R^2: 	0.5437800320341698 <br>
+Regresión Logistica - R²: 	0.5437800320341698 <br>
 Regresión Logistica - RMSE: 	0.675440573230414 <br>
-Random Forest - R^2: 		0.7840363053924185 <br>
+Random Forest - R²: 		0.7840363053924185 <br>
 Random Forest - RMSE: 		0.4647189415201208 <br>
-KNN - R^2: 			0.7608115323011212 <br>
+KNN - R²: 			0.7608115323011212 <br>
 KNN - RMSE: 			0.489068980511828 <br>
 </p>
 <h3>Interpretación: </h3>
