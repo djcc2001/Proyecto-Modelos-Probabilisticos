@@ -1,11 +1,11 @@
-<h1>Predicción de Casos Confirmados de Dengue en el Perú mediante Modelos Probabilísticos y de Aprendizaje Supervisado</h1>
+<h1>Predicción de la Tasa de Recuperación de Niños Menores de 36 Meses con Anemia en la Región Junín mediante Modelos Probabilísticos y de Aprendizaje Supervisado</h1>
 <p>
-Este repositorio contiene un proyecto de análisis y predicción de la notificación de casos confirmados de dengue en el Perú, utilizando técnicas de aprendizaje supervisado y modelos probabilísticos. El dengue es una enfermedad viral transmitida por mosquitos, con alta incidencia en diversas regiones del Perú, y constituye un problema de salud pública. Este proyecto busca explorar factores geográficos, demográficos y temporales asociados a la notificación de casos, para anticipar brotes y mejorar las estrategias de control y prevención.
+Este repositorio contiene un proyecto de análisis y predicción de la tasa de recuperación de niños menores de 36 meses diagnosticados con anemia en la Región Junín, utilizando técnicas de aprendizaje supervisado y modelos probabilísticos. La anemia infantil es un problema de salud pública que afecta a muchos niños en diversas regiones del Perú, y su diagnóstico temprano y tratamiento adecuado son cruciales para prevenir complicaciones. Este proyecto busca explorar factores como los niveles de hemoglobina, el tipo de seguro, las fechas de diagnóstico y tratamiento, entre otros, para predecir la probabilidad de recuperación de los niños y así mejorar las estrategias de intervención médica.
 </p>
 
 <h3>Objetivo: </h3>
 <p>
-Desarrollar y evaluar modelos predictivos robustos que permitan estimar la probabilidad de casos confirmados de dengue en función de variables geográficas, demográficas y temporales, con el objetivo de identificar patrones clave que puedan guiar intervenciones de salud pública.
+Desarrollar y evaluar modelos predictivos capaces de estimar la probabilidad de recuperación de niños menores de 36 meses con anemia en función de variables clínicas y demográficas, con el fin de identificar patrones clave que puedan guiar las intervenciones médicas y optimizar los recursos de salud en la región.
 </p>
 <h3>Integrantes: </h3>
 <p>
