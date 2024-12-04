@@ -24,7 +24,7 @@ Desarrollar y evaluar modelos predictivos que estimen la probabilidad de recuper
 
 | Modelo             | R²          | RMSE       |
 |--------------------|-------------|------------|
-| 📊 Regresión Logística | 0.5438      | 0.6754     |
+| 📊 Regresión Logística | 0.5438      | 0.9754     |
 | 🌲 Random Forest       | 0.7840      | 0.4647     |
 | 📍 KNN                | 0.7608      | 0.4891     |
 
@@ -32,7 +32,7 @@ Desarrollar y evaluar modelos predictivos que estimen la probabilidad de recuper
 
 ### 📊 Regresión Logística
 - **R² (0.5438):** Explica el 54.38% de la variabilidad en los datos. Esto indica que no captura una gran parte de la información.  
-- **RMSE (0.6754):** Relativamente alto, lo que sugiere un margen de error considerable en las predicciones.
+- **RMSE (0.9754):** Relativamente alto, lo que sugiere un margen de error considerable en las predicciones.
 
 ### 🌲 Random Forest
 - **R² (0.7840):** Excelente, ya que explica el 78.4% de la variabilidad. Indica un modelo robusto y adecuado.  
